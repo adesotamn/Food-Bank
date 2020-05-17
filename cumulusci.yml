@@ -3,6 +3,7 @@ project:
     name: Food-Bank
     package:
         name:  Food-Bank
+        namespace: asr_foodbank
         api_version: '48.0'
     source_format: sfdx
 
