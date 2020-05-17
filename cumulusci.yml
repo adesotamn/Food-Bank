@@ -6,6 +6,16 @@ project:
         api_version: '48.0'
     source_format: sfdx
 
+flows:
+    config_qa:
+        steps:
+            3:
+                task: load_dataset
+    config_dev:
+        steps:
+            3:
+                task: load_dataset
+
 tasks:
     robot:
         options:
